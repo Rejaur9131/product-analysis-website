@@ -19,7 +19,7 @@ const Home = () => {
         </div>
         <img className="w-96" src={pic} alt="" />
       </div>
-      <div className="review-container">
+      <div className="review-container py-8">
         <h1 className="text-3xl font-bold mb-4">Customers Reviews: {threeReviews.length}</h1>
         <div className="grid grid-cols-3 mb-4">
           {threeReviews.map((review) => (
