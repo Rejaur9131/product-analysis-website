@@ -4,6 +4,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Live Project Link [Instant-Pot Pro](https://verdant-sawine-8b2320.netlify.app/).
 
+## Technologies
+
+---
+
+A list of technologies used within the project:
+
+- [React ](https://reactjs.org/): Version 18.0.0
+- [React Router](https://reactrouter.com/): Version 6
+- [Tailwind CSS](https://tailwindcss.com/): Version 3.0.23
+- [Recharts](https://recharts.org/): Version 2.1.9
+
 ## Available Scripts
 
 In the project directory, you can run:
