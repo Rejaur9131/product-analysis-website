@@ -2,10 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Project Name
-
-Instant-Pot Pro
-
 ## Live Project Link [Instant-Pot Pro](https://verdant-sawine-8b2320.netlify.app/).
 
 ## Available Scripts
