@@ -1,9 +1,14 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import pic from '../../images/instant-pot.jpg';
+import Review from '../Review/Review';
+import useReviews from './../../hooks/useReviews';
 
 const Home = () => {
   const navigate = useNavigate();
+  const [reviews, setReviews] = useReviews();
+  const threeReviews = reviews.slice(0, 3);
+
   return (
     <div className="home-container">
       <div className="product-container flex justify-between align-middle p-8">
@@ -15,9 +20,14 @@ const Home = () => {
         <img className="w-96" src={pic} alt="" />
       </div>
       <div className="review-container">
-        <h1 className="text-3xl font-bold mb-4">Customers Reviews: 3</h1>
+        <h1 className="text-3xl font-bold mb-4">Customers Reviews: {threeReviews.length}</h1>
+        <div className="grid grid-cols-3 mb-4">
+          {threeReviews.map((review) => (
+            <Review key={review.id} review={review}></Review>
+          ))}
+        </div>
         <button
-          className="bg-indigo-600 p-2 text-white font-bold rounded"
+          className="bg-indigo-600 p-2 text-white font-bold rounded mb-4"
           onClick={() => {
             navigate('/reviews');
           }}
