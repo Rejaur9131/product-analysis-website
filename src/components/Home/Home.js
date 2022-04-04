@@ -12,12 +12,15 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="product-container flex justify-between align-middle p-8">
-        <div className="mx-8">
+        <div className="mx-8 w-full">
           <h1 className="text-6xl font-extrabold font-mono text-indigo-500 text-left">Cooker of Your Choice</h1>
           <h2 className="text-4xl font-extrabold font-mono text-indigo-400 text-left mb-4">Ensures Reliablity and Durablility</h2>
           <p className="text-xl text-left">Pressure cook, slow cook, sous vide, sauté pan, sterilizer, yogurt maker, food warmer, cake baker and steamer. Cook for up to 6 people - perfect for growing families, or meal prepping and batch cooking for singles. Overheat Protection, safe locking lid, upgraded gentle steam release switch with diffusing cover to reduce noise and prevent splashing on the counter, and more. Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing.</p>
         </div>
-        <img className="w-96" src={pic} alt="" />
+        <div>
+          <img className="w-full" src={pic} alt="" />
+          <h2 className="text-3xl font-bold whitespace-nowrap">Instant-Pot Pro</h2>
+        </div>
       </div>
       <div className="review-container py-8">
         <h1 className="text-3xl font-bold mb-4">Customers Reviews: {threeReviews.length}</h1>
