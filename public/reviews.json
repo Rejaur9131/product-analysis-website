@@ -1,0 +1,38 @@
+[
+  {
+    "id": "a77b362d6ead1",
+    "name": "Carmen Ray",
+    "img": "https://randomuser.me/api/portraits/women/8.jpg",
+    "ratings": 4.5
+  },
+  {
+    "id": "82d7d8642b862",
+    "name": "Dale Owens",
+    "img": "https://randomuser.me/api/portraits/men/1.jpg",
+    "ratings": 4.9
+  },
+  {
+    "id": "2f461ea9d4f73",
+    "name": "Tamara Mitchell",
+    "img": "https://randomuser.me/api/portraits/women/22.jpg",
+    "ratings": 4.8
+  },
+  {
+    "id": "b0c6-6a3b816fe924",
+    "name": "Madison Grant",
+    "img": "https://randomuser.me/api/portraits/women/40.jpg",
+    "ratings": 4.7
+  },
+  {
+    "id": "0a7c9697be8e5",
+    "name": "Dwayne Stevens",
+    "img": "https://randomuser.me/api/portraits/men/43.jpg",
+    "ratings": 4.6
+  },
+  {
+    "id": "a5140faedfb06",
+    "name": "Janice Collins",
+    "img": "https://randomuser.me/api/portraits/women/79.jpg",
+    "ratings": 4.9
+  }
+]
